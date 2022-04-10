@@ -1,16 +1,10 @@
-# flutter_lists
+# MAD Assignment 1 : Wordle Daily Answers App (Using Lists)
 
-A new Flutter project.
+Building a simple app for using a List in Flutter 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## For this assignment, I will create:
+   1. An object with hard coded list of answers for the game wordle, eg: Black, Arise, Lamps, Shawl, Scare
+   3. A textbox widget to enter a choice of 1,2,3,or ...
+   4. A button to access the list and display the content of the list depending on what was chosen on the textbox. 
+      
+      So if 1 is entered in the textbox, then, it will display the first day's answer i.e Black

@@ -11,7 +11,7 @@ class Input extends StatefulWidget {
 }
 
 class _Input extends State<Input> {
-  final int number = 0;
+  final number = TextEditingController();
   // ignore: use_key_in_widget_constructors
   _Input();
 
@@ -22,11 +22,16 @@ class _Input extends State<Input> {
     return Container(
       width: double.infinity,
       margin: const EdgeInsets.all(30),
-      child: TextFormField(
-            decoration: const InputDecoration(
-              hintText: 'Enter a number',
-            ),
-          ),
+      child:Column(
+          children: [
+            TextField(
+              controller: number,
+              decoration: const InputDecoration(
+                hintText: 'Enter a number',
+              ),
+            )
+          ],
+      )
     );
   }
 }

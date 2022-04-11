@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         
         body: Column(
-          children: [const Question("Enter a number please : ")],
+          children: [const Question("Enter a number please : "),Input()],
         ),
       ),
     );

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import './question.dart';
 import './input.dart';
 void main() => runApp(MyApp());
@@ -7,11 +6,11 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  
   @override
   Widget build(BuildContext context) {
+   
     // List of words
-    var wordle = ["Black", "Arise", "Lamps", "Shawl", "Scare"];
+    var wordle = ["BLACK", "ARISE", "LAMPS", "SHAWL", "SCARE","CARED"];
 
     return MaterialApp(
       home: Scaffold(
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         
         body: Column(
-          children: [const Question("Enter a number please : "),Input()],
+          children: [const Question("Enter a number please : "),Input(wordle)],
         ),
       ),
     );

@@ -8,3 +8,5 @@ Building a simple app for using a List in Flutter
    4. A button to access the list and display the content of the list depending on what was chosen on the textbox. 
       
       So if 1 is entered in the textbox, then, it will display the first day's answer i.e Black
+     
+![wordle app](https://user-images.githubusercontent.com/55779777/163184005-e8c6ff93-a405-46ba-ac66-86372b7f63a8.png)

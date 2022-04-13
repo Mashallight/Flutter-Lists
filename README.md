@@ -1,6 +1,6 @@
 # MAD Assignment 1 : Wordle Daily Answers App (Using Lists)
 
-Building a simple app for using a List in Flutter 
+Building a simple app using a List in Flutter 
 
 ## For this assignment, I will create:
    1. An object with hard coded list of answers for the game wordle, eg: Black, Arise, Lamps, Shawl, Scare
